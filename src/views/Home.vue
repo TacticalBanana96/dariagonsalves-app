@@ -4,18 +4,26 @@
 			<b-row no-gutters>
 				<b-col>
 					<p>Hi! My name is</p>
-					<h1>Daria Gonsalves</h1>
+					<h1 class="pt-3 pb-5">Daria Gonsalves</h1>
 				</b-col>
 			</b-row>
-			<b-row no-gutters>
+			<b-row no-gutters class="pb-5">
 				<b-col>
 					<p>I'm a web developer specializing in backend architecture for cloud based applications for the last 3 years.</p>
 					<p>In my free time I'm also a hobbyist game designer 🕹️</p>
 				</b-col>
 			</b-row>
-			<b-row>
-				<b-col><p>© dariagonsalves.com</p></b-col>
-				<b-col> </b-col>
+			<b-row no-gutters class="pt-5">
+				<b-col align-self-h="start"><p>© dariagonsalves.com</p></b-col>
+				<b-col>
+					<b-row no-gutters align-h="end">
+						<b-col cols="2">
+							<b-button target="_blank" href="https://www.linkedin.com/in/daria-gonsalves-624414125/"><b-icon icon="linkedin"></b-icon></b-button> </b-col
+						><b-col cols="2">
+							<b-button target="_blank" href="https://github.com/TacticalBanana96"> <b-icon icon="github"></b-icon></b-button>
+						</b-col>
+					</b-row>
+				</b-col>
 			</b-row>
 		</b-container>
 	</div>
@@ -23,9 +31,6 @@
 
 <script>
 // @ is an alias to /src
-// import HelloWorld from "@/components/HelloWorld.vue";
-// import Sidebar from "@/components/Sidebar.vue";
-// import About from "@/components/About.vue";
 import awsbadge from "@/assets/aws-certified-developer-associate.png";
 
 export default {
@@ -80,6 +85,9 @@ export default {
 	font-weight: bold;
 }
 .content {
-	height: 100%;
+	/* height: 80%; */
+	width: 80%;
+	/* background: pink; */
+	padding: 10em 0em 5em 0em;
 }
 </style>
